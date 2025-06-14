@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 })
 export class Home {
 
-  public nome: string = 'Adan';
+  public nome: string = 'Jão';
 }
