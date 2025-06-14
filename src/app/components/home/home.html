@@ -13,5 +13,10 @@
     @else if(nome == "Jão" && idade == 20) {
         <p>Special message for Jão, who is 20 years old!</p>
     }
+    @for (item of users; track i; let i = $index) {
+        <li>{{ i }} - {{ item.name }}</li>
+    } @empty {
+        <li>No items found</li>
+    }
     <p>Feel free to explore!</p>
 </div>
