@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
 export class Home {
 
   public nome: string = 'Jão';
-  public idade: number = 30;
+  public idade: number = 20;
 }

@@ -3,13 +3,15 @@
     <p>This is the main page of our application.</p>
     <p>Here you can find various features and links to other sections.</p>
     
-    @if(nome != "Jão" || idade == 20) {
+    @if(nome != "Jão" || idade == 30) {
         <ul>
             <li><a href="#/about">About Us</a></li>
             <li><a href="#/contact">Contact Us</a></li>
             <li><a href="#/services">Our Services</a></li>
         </ul>
     }
-    
+    @else if(nome == "Jão" && idade == 20) {
+        <p>Special message for Jão, who is 20 years old!</p>
+    }
     <p>Feel free to explore!</p>
 </div>
